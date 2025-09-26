@@ -1,0 +1,169 @@
+/* General Page */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d")
+    no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+.page {
+  padding: 3rem;
+  text-align: center;
+}
+
+/* Resume Analyzer */
+.resume-textarea {
+  width: 80%;
+  max-width: 700px;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #00e5ff;
+  font-size: 1rem;
+  margin-top: 1rem;
+  outline: none;
+}
+
+.resume-textarea:focus {
+  border-color: #ff9800;
+}
+
+.feedback {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback.success {
+  background: rgba(0, 255, 0, 0.2);
+  color: #00ff7f;
+  border: 2px solid #00ff7f;
+}
+
+.feedback.error {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff4444;
+  border: 2px solid #ff4444;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00e5ff;
+}
+
+.header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+  padding: 6rem 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #00e5ff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* CTA Button */
+.cta-btn {
+  background: #00e5ff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #ff9800;
+  color: #fff;
+}
+
+/* Features */
+.features {
+  padding: 4rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 2rem;
+  border-radius: 15px;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffeb3b;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.feature:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+.footer {
+  padding: 1rem;
+  margin-top: 3rem;
+  background: rgba(0, 0, 0, 0.7);
+}
